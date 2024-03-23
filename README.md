@@ -1,6 +1,6 @@
 # Sentiment Analysis Website
 
-This project implements a simple web application for sentiment analysis using a machine learning model trained on IMDb movie reviews dataset. Users can input text, and the application predicts whether the sentiment of the text is positive, negative, or neutral.
+This project implements a simple web application for sentiment analysis using a machine learning model trained on IMDb movie reviews dataset. Users can input text, and the application predicts whether the sentiment of the text is positive or negative..
 
 ## Features
 
