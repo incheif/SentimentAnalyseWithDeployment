@@ -1,7 +1,6 @@
-
 # Sentiment Analysis Website
 
-This project implements a simple web application for sentiment analysis using a machine learning model trained on IMDb movie reviews dataset. Users can input text, and the application predicts whether the sentiment of the text is positive or negative.
+This project implements a simple web application for sentiment analysis using a machine learning model trained on IMDb movie reviews dataset. Users can input text, and the application predicts whether the sentiment of the text is positive, negative, or neutral.
 
 ## Features
 
@@ -15,7 +14,7 @@ This project implements a simple web application for sentiment analysis using a 
 - **Frontend**: HTML, CSS, JavaScript
 - **Machine Learning Model**: Logistic Regression (scikit-learn)
 - **Text Preprocessing**: NLTK (Natural Language Toolkit)
-- **Serialization**: pickle
+- **Serialization**: Joblib
 
 ## Setup Instructions
 
@@ -31,25 +30,34 @@ This project implements a simple web application for sentiment analysis using a 
    pip install -r requirements.txt
    ```
 
-3. Run the Flask server:
+3. Train the machine learning model and save it as a pickle file:
+
+   ```bash
+   python train_model.py
+   ```
+
+4. Run the Flask server:
 
    ```bash
    python sentiment_analysis_backend.py
    ```
 
-4. Open the `index.html` file in your web browser to access the web interface.
-
 ## Directory Structure
 
-   ```
-   sentiment-analysis-website/
-   │
-   ├── sentiment_analysis_backend.py     # Flask backend for sentiment analysis
-   ├── sentiment_model.py               # Pre-trained machine learning model
-   ├── index.html                      # HTML file for frontend
-   ├── imdb_reviews.csv            # IMDb movie reviews dataset
-   └── README.md                   # Project README file
-   ```
+```
+sentiment-analysis-website/
+│
+├── sentiment_analysis_backend.py  # Flask backend for sentiment analysis
+├── sentiment_model.py              # Pre-trained machine learning model
+├── index.html                      # HTML file for frontend
+├── imdb_reviews.csv                # IMDb movie reviews dataset
+└── README.md                       # Project README file
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 - IMDb for providing the movie reviews dataset.
