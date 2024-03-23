@@ -8,6 +8,16 @@ This project implements a simple web application for sentiment analysis using a 
 - Analyze Sentiment button triggers the sentiment analysis process.
 - Display of predicted sentiment result.
 
+## Screenshots
+
+1. Home Page
+   ![Home Page](<img width="1276" alt="Screenshot 2024-03-23 205350" src="https://github.com/incheif/ML_Deployment/assets/96371303/dfc44e0f-262b-451b-9336-fa3063d1cc7d">
+)
+
+2. Sentiment Analysis Result
+   ![Sentiment Analysis](<img width="1279" alt="Screenshot 2024-03-23 205551" src="https://github.com/incheif/ML_Deployment/assets/96371303/3384b132-24cf-4cd6-b0aa-5f94a03e00a3">)
+   ![Sentiment Analysis](<img width="1277" alt="Screenshot 2024-03-23 205727" src="https://github.com/incheif/ML_Deployment/assets/96371303/96e2bbc6-ca9a-48d8-b559-b94a67398443">)
+   
 ## Technologies Used
 
 - **Backend**: Python (Flask)
