@@ -15,6 +15,8 @@ This project implements a simple web application for sentiment analysis using a 
 
 2. Sentiment Analysis Result
    ![Sentiment Analysis](/screenshots/positive_review.png)
+
+   
    ![Sentiment Analysis](/screenshots/negative_review.png)
    
 ## Technologies Used
