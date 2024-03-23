@@ -1,6 +1,4 @@
-Certainly! Below is a template for a GitHub README.md file for your sentiment analysis project:
 
-```markdown
 # Sentiment Analysis Website
 
 This project implements a simple web application for sentiment analysis using a machine learning model trained on IMDb movie reviews dataset. Users can input text, and the application predicts whether the sentiment of the text is positive or negative.
