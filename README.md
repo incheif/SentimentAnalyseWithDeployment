@@ -41,18 +41,17 @@ This project implements a simple web application for sentiment analysis using a 
 
 ## Directory Structure
 
-```
-sentiment-analysis-website/
-│
-├── sentiment_analysis_backend.py     # Flask backend for sentiment analysis
-├── sentiment_model.py               # Pre-trained machine learning model
-├── index.html                      # HTML file for frontend
-├── imdb_reviews.csv            # IMDb movie reviews dataset
-└── README.md                   # Project README file
-```
+   ```
+   sentiment-analysis-website/
+   │
+   ├── sentiment_analysis_backend.py     # Flask backend for sentiment analysis
+   ├── sentiment_model.py               # Pre-trained machine learning model
+   ├── index.html                      # HTML file for frontend
+   ├── imdb_reviews.csv            # IMDb movie reviews dataset
+   └── README.md                   # Project README file
+   ```
 ## Acknowledgements
 
 - IMDb for providing the movie reviews dataset.
 - OpenAI for providing guidance on machine learning techniques.
 - Flask, NLTK, scikit-learn, and other open-source libraries used in this project.
-```
