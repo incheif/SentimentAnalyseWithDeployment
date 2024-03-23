@@ -1,0 +1,12 @@
+flask
+numpy
+sklearn
+nltk
+pandas
+re
+json
+os
+pickle
+os
+dotenv
+
