@@ -25,7 +25,7 @@ This project implements a simple web application for sentiment analysis using a 
 - **Frontend**: HTML, CSS, JavaScript
 - **Machine Learning Model**: Logistic Regression (scikit-learn)
 - **Text Preprocessing**: NLTK (Natural Language Toolkit)
-- **Serialization**: Joblib
+- **Serialization**: Pickle
 
 ## Setup Instructions
 
